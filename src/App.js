@@ -108,7 +108,7 @@ function App() {
           </>
         )}
         {
-          over && 
+          over && !winner && 
           <> 
           <Alert variant="danger">
             Try Again!
